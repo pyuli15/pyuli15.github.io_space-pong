@@ -5,35 +5,46 @@
     <script src="p5/p5.dom.min.js"></script>
     <script src="p5/p5.sound.min.js"></script>
     <script src="sketch.js"></script>
-    <style> body {padding: 0; margin: 0; background-image: url("spaceback.png");}
-    		canvas {display: block; margin: auto;}
+    <style> 
 
-    		.parallax{
-    			background-image: url("spaceback.png");
+    		@font-face { font-family: Spacey; src: url('Azonix.otf'); } 
+ 			@font-face { font-family: Spacey; font-weight: bold; src: url('font/Azonix.otf');}
 
-    			height: 100%;
-
+    		body
+    		{
+    			padding: 0;
+			 	margin: 0; 
+    			background-image: url("space_background.gif"); 
+    			height: 100%; 
     			background-attachment: fixed;
     			background-position: center;
     			background-repeat: no-repeat;
     			background-size: cover;
+    			
+    		}
+
+
+    		canvas 
+    		{
+    			display: block; 
+    			margin: auto;
     		}
 
     		h1{
-    			background-color: rgb(112,138,144);font-size:20px;
+    			background-color: rgb(112,138,144);
+    			font-size:20px;
+    			margin: auto;
     		}
 
     </style>
 
   </head>
   <body>
-  	<div class="parallax"></div>
 
 <h1>
 Space Pong: A Game of Pong in Space! 
 </h1>
 
-<div class="parallax"></div>
   </body>
 
 </html>
