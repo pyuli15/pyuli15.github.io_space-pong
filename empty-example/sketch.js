@@ -40,15 +40,15 @@ var buttonSound;
 //preloading my images so that they appear on the screen immediately.
 function preload()
 {
-	bg = loadImage("images/space.jpg");
-	astronaut = loadImage("images/astro.png");
-	walls = loadSound("sounds/walls_ping.mp3");
-	paddleSound = loadSound("sounds/paddle.mp3");
-	youLose = loadSound("sounds/lose.mp3");
-	coinCollect = loadSound("sounds/collect.mp3");
-	spaceSounds = loadSound("sounds/space_sounds.mp3");
-	startScreen = loadImage("images/space.png");
-	buttonSound = loadSound("sounds/mousehover.mp3");
+	bg = loadImage("../images/space.jpg");
+	astronaut = loadImage("../images/astro.png");
+	walls = loadSound("../sounds/walls_ping.mp3");
+	paddleSound = loadSound("../sounds/paddle.mp3");
+	youLose = loadSound("../sounds/lose.mp3");
+	coinCollect = loadSound("../sounds/collect.mp3");
+	spaceSounds = loadSound("../sounds/space_sounds.mp3");
+	startScreen = loadImage("../images/space.png");
+	buttonSound = loadSound("../sounds/mousehover.mp3");
 }
 
 
