@@ -125,13 +125,11 @@ function gamePlay()
 		//is down. Negative for left since the x value is going down and positive for right 
 		//since the x value is going up
 		paddleSpeed -= 0.3;
-		console.log("left key is down");
 	}
 
 	if(keyIsDown(68))
 	{
 		paddleSpeed += 0.3;
-		console.log("right key is down");
 	}
 
 	//adding the speed to the paddle
@@ -249,7 +247,6 @@ function mousePressed()
 	{
 		xSpeed = random(-5, 5);
 		ySpeed = random(-5,0);
-		console.log("Mouse is being pressed");
 	}
 
 	if (state == "start" && buttonDist <= 25)
