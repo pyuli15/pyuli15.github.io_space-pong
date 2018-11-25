@@ -62,6 +62,7 @@ function setup()
 	//when the player first starts the game
 	astronautX = (random( 100, width - 100));
 	astronautY = (random( 100, height - 200));
+	canvas.parent("sketch-holder");
 
 
 }
